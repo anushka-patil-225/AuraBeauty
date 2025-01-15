@@ -8,9 +8,14 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      container:{
+        center:true,
+        padding:"15px"
+      },
+
+      colors:{
+        accent: "#800080",
+        blackish: "#1b1b1b",
       },
     },
   },
